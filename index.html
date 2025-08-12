@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pivko s Klukama z Matfyzu</title>
+  <meta name="description" content="Největší neoficiální matfyzácká akce organizovaná matfyzáky pro matfyzáky" />
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --fg: #d6ffe7;
+      --muted: #7aa37a;
+      --accent: #9fef00;
+      --link: #9fef00;
+      --card: #0e141b;
+      --rule: #183024;
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f8fff9; --fg:#0a1b12; --muted:#4c6b4c; --accent:#2b8a3e; --link:#136f2a; --card:#ffffff; --rule:#dfeee3; }
+    }
+    html, body { height: 100%; }
+    body {
+      margin: 0; font: 16px/1.6 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      background: var(--bg); color: var(--fg);
+      display: grid; place-items: start center;
+    }
+    main { width: 100%; max-width: 760px; padding: 24px; }
+    header { margin: 18px 0 12px; }
+    h1 { font-size: clamp(28px, 4vw, 44px); margin: 0 0 6px; letter-spacing: 0.5px; }
+    .tagline { color: var(--muted); margin: 2px 0 14px; }
+    .card { background: var(--card); border: 1px solid var(--rule); border-radius: 14px; padding: 18px 18px 6px; box-shadow: 0 2px 24px rgba(0,0,0,0.15); }
+    hr { border: 0; border-top: 1px dashed var(--rule); margin: 16px 0; }
+    ul { list-style: "› "; padding-left: 18px; margin: 0; }
+    li { margin: 8px 0 14px; }
+    li small { color: var(--muted); }
+    del { opacity: 0.6; }
+    a { color: var(--link); text-decoration: none; border-bottom: 1px solid currentColor; }
+    a:hover { filter: brightness(1.1); }
+    .pill { display: inline-block; padding: 2px 8px; border: 1px solid var(--rule); border-radius: 999px; font-size: 12px; color: var(--muted); margin-left: 6px; }
+    footer { color: var(--muted); font-size: 13px; margin-top: 20px; }
+    .beer { filter: drop-shadow(0 0 8px rgba(159,239,0,0.3)); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>🍺 <span class="beer">Pivko s Klukama z Matfyzu</span></h1>
+      <p class="tagline">Největší meetup pro studenty pražských technických fakult s pražskou technologickou startup scénou.<br/>Začalo to u pár stolů... Nyní stovky lidí každý rok.</p>
+    </header>
+
+    <section class="card">
+      <p><strong>About:</strong> Každoroční event pořádaný bývalými studenty pražského matfyzu. Přijďte se pobavit, dobře najíst a dozvědět se, co je nového okolo technologií a startupů. Pro každý ročník pečlivě vybíráme i několik technologických přednášek, které jsou následovány volným programem :))</p>
+      <p><strong>[EN]</strong> Event is open for English speakers too!</p>
+      <hr>
+      <h2 style="margin:0 0 6px">Ročníky</h2>
+      <ul>
+        <li><del>Pivko s Klukama z Matfyzu vol. 1</del></li>
+        <li><del>Pivko s Klukama z Matfyzu vol. 2</del></li>
+        <li><del>Pivko s Klukama z Matfyzu vol. 3</del></li>
+        <li><del>Pivko s Klukama z Matfyzu vol. 4</del></li>
+        <li><del>Pivko s Klukama z Matfyzu vol. 5</del></li>
+        <li><del>Pivko s Klukama z Matfyzu vol. 6</del></li>
+        <li><del>Pivko s Klukama z Matfyzu vol. 7</del></li>
+        <li>
+          <strong>Pivko s Klukama z Matfyzu vol. 8</strong>
+          <span class="pill">aktuální</span>
+          <br>
+          <a href="https://lu.ma/ftcwwpnz" target="_blank" rel="noopener">→ RSVP on Luma</a>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      Organized by <a href="https://www.kaya.vc">"KAYA</a> · Questions: <span style="white-space:nowrap">dev@kaya.vc</span>
+    </footer>
+  </main>
+</body>
+</html>
